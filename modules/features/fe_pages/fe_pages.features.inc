@@ -63,5 +63,20 @@ function fe_pages_image_default_styles() {
     ),
   );
 
+  // Exported image style: scale_cropped_1_1.
+  $styles['scale_cropped_1_1'] = array(
+    'label' => 'Scale&Cropped 1:1',
+    'effects' => array(
+      1 => array(
+        'name' => 'image_scale_and_crop',
+        'data' => array(
+          'width' => 600,
+          'height' => 600,
+        ),
+        'weight' => 1,
+      ),
+    ),
+  );
+
   return $styles;
 }

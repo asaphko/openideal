@@ -349,7 +349,7 @@ function fe_pages_views_default_views() {
   $handler->display->display_options['fields']['field_challenge_image']['hide_empty'] = TRUE;
   $handler->display->display_options['fields']['field_challenge_image']['click_sort_column'] = 'fid';
   $handler->display->display_options['fields']['field_challenge_image']['settings'] = array(
-    'image_style' => 'large',
+    'image_style' => 'scale_cropped_1_1',
     'image_link' => '',
   );
   /* Field: Content: Title */
